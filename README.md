@@ -61,4 +61,4 @@ Then, install jupyter-notebook:
 pip install jupyter
 jupyter notebook
 ```
-Now, to execute the code cells in Jupyter Notebook, click on the cell with code in it, then press "Shift+Enter" on your keyboard. This will run the code in that cell.
+Now open **avhubert_vsr.ipynb**, to execute the code cells in Jupyter Notebook, click on the cell with code in it, then press "Shift+Enter" on your keyboard. This will run the code in that cell.
