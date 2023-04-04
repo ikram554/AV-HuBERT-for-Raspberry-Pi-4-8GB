@@ -56,9 +56,9 @@ sudo apt install python3-venv
 python3 -m venv my-project-env
 source my-project-env/bin/activate
 ```
-Then, install jupyter-notebook:
+Then, install Jupyter Notebook:
 ```
 pip install jupyter
 jupyter notebook
 ```
-Now open **avhubert_vsr.ipynb**, to execute the code cells in Jupyter Notebook, click on the cell with code in it, then press "Shift+Enter" on your keyboard. This will run the code in that cell.
+Now open **avhubert_vsr.ipynb** on Jupter Notebook, to execute the code cells in Jupyter Notebook, click on the cell with code in it, then press "Shift+Enter" on your keyboard. This will run the code in that cell.
