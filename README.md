@@ -50,36 +50,19 @@ Please find the checkpoints [here](http://facebookresearch.github.io/av_hubert)
 Run our lip-reading demo using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bNXkfpHiVHzXQH8WjGhzQ-fsDxolpUjD)
 
 ## Installation
-First, create a conda virtual environment and activate it:
+First, create a virtual environment and activate it:
 ```
-conda create -n avhubert python=3.8 -y
-conda activate avhubert
+sudo apt install python3-venv
+python3 -m venv my-project-env
+source my-project-env/bin/activate
 ```
-Then, clone this directory:
+Then, install jupyter-notebook:
 ```
-git clone https://github.com/facebookresearch/av_hubert.git
-cd avhubert
-git submodule init
-git submodule update
-```
-
-Lastly, install Fairseq and the other packages:
-```
-pip install -r requirements.txt
-cd fairseq
-pip install --editable ./
+pip install jupyter
+jupyter notebook
 ```
 
-## Load a pretrained model
-```sh
-$ cd avhubert
-$ python
->>> import fairseq
->>> import hubert_pretraining, hubert
->>> ckpt_path = "/path/to/the/checkpoint.pt"
->>> models, cfg, task = fairseq.checkpoint_utils.load_model_ensemble_and_task([ckpt_path])
->>> model = models[0]
-```
+Now simply run your code cells in jupyter notebook
 
 ## Train a new model
 
