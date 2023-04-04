@@ -49,7 +49,7 @@ Please find the checkpoints [here](http://facebookresearch.github.io/av_hubert)
 ## Demo on Colab (Not suitable for Raspberry Pi)
 Run our lip-reading demo using Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bNXkfpHiVHzXQH8WjGhzQ-fsDxolpUjD)
 
-## Installation
+## Installation on Raspberry Pi
 First, create a virtual environment and activate it:
 ```
 sudo apt install python3-venv
